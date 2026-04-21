@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Rounded square background -->
+  <rect width="128" height="128" rx="22" ry="22" fill="#1c7d8c"/>
+
+  <!-- Compass star + center hole -->
+  <g transform="translate(64,64)" fill="white">
+    <path d="
+      M 0,-50
+      L 4,-15  L 22,-22  L 15,-4
+      L 50,0
+      L 15,4   L 22,22   L 4,15
+      L 0,50
+      L -4,15  L -22,22  L -15,4
+      L -50,0
+      L -15,-4 L -22,-22 L -4,-15
+      Z
+    "/>
+    <!-- Teal circle punched out of center -->
+    <circle r="6" fill="#1c7d8c"/>
+  </g>
+</svg>
